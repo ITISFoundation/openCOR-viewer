@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   opencor-viewer:
-    image: simcore/services/dynamic/opencor-viewer:1.0.0
+    image: simcore/services/dynamic/opencor-viewer:1.0.1
     ports:
       - "8888:8888"
     environment:
