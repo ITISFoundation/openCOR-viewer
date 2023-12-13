@@ -1,0 +1,25 @@
+name: openCOR Viewer
+key: simcore/services/dynamic/opencor-viewer
+type: dynamic
+integration-version: 1.0.0
+version: 1.0.0
+description: Viewer specific for the output of the openCOR Service. Source code of the service is on [Github](https://github.com/ITISFoundation/openCOR-viewer).
+contact: iavarone@itis.swiss
+thumbnail: https://models.physiomeproject.org/workspace/b01/rawfile/808838d25c22fcf0240a1ac88afceb170e10ed5c/ICC_SMC_Neuro.png
+authors:
+  - name: Elisabetta Iavarone
+    email: iavarone@itis.swiss
+    affiliation: IT'IS Foundation
+  - name: Omkar N. Athavale
+    email: oath399@aucklanduni.ac.nz
+    affiliation: Auckland Bioengineering Institute, University of Auckland
+inputs:
+  input_1:
+    displayOrder: 1
+    label: openCOR Simulation output
+    description: Output from openCOR (json file with time series output of the simulation)
+    type: data:*/*
+    fileToKeyMap:
+      output_data.json: input_1  
+outputs: {}
+  
