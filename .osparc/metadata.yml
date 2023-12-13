@@ -1,8 +1,8 @@
 name: openCOR Viewer
 key: simcore/services/dynamic/opencor-viewer
 type: dynamic
-integration-version: 1.0.0
-version: 1.0.0
+integration-version: 1.0.1
+version: 1.0.1
 description: Viewer specific for the output of the openCOR Service. Source code of the service is on [Github](https://github.com/ITISFoundation/openCOR-viewer).
 contact: iavarone@itis.swiss
 thumbnail: https://models.physiomeproject.org/workspace/b01/rawfile/808838d25c22fcf0240a1ac88afceb170e10ed5c/ICC_SMC_Neuro.png
